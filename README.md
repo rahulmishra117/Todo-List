@@ -7,4 +7,4 @@ A TODO APP contain the functionlity of Adding some Task ,Editing some task And D
   ### JAVASCRIPT
 
 Images
-![LCO](./Assests/image/Screenshot(612).png)
+![LCO Mascot](/Assests/image/Screenshot(612).png)
