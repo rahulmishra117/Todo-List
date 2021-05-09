@@ -14,7 +14,7 @@ if(todo.length){
     showTodo();
 }
 
-// show todo with lopping create element
+// function Show the todo data 
 function showTodo() {
    todoList.innerHTML = "";
    for (let i = 0; i < todo.length; i++) {
@@ -55,13 +55,13 @@ function editTodo(i) {
     // console.log(todo[index]);
 }
 
-// execute edit todo
+// function that editi the todo data form the list
 function editedTodo(i, newTodo) {
     todo.splice(i, 1, newTodo);
     showTodo(); 
 }
 
-// delete todo
+// Function that delete the item form todo and show an alert when data is deteled
 function deleteTodo(i) {
     if (confirm("Are you sure to delete?")) {
         todo.splice(i, 1);
@@ -69,23 +69,11 @@ function deleteTodo(i) {
     showTodo();
 }
 
-// complete todo
+// Function that Clear the todo data
+function cleardata(){
+    var x=document.getElementById("todo-data").innerHTML;
+    console.log(x);
+    alert("Once data clear then Restart the windoow!!!");
+    document.getElementById("todo-data").innerHTML = "";
+}
 
-
-var textWrapper = document.querySelector(' .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml9 .letter',
-    scale: [0, 1],
-    duration: 1500,
-    elasticity: 600,
-    delay: (el, i) => 45 * (i+1)
-  }).add({
-    targets: '.ml9',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });

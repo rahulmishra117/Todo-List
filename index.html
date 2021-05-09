@@ -2,8 +2,10 @@
 <html>
     <head>
         <title>TodoFrontend</title>
+        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <!-- Adding the styling for todo -->
         <link rel="stylesheet" href="./Assests/style.css">
     </head>
     <body>
@@ -12,6 +14,7 @@
                 TODO-LIST
             </h1>
         </header>
+        <!-- Main section value -->
         <main>
             <div class="container">
                 <div class="left-part">
@@ -29,6 +32,7 @@
             <i class="fas fa-mouse-alt "></i>
         </section>
 
+        <!-- Section where Add the todo element -->
         <section id="todo-section">
             <div class="container">
                 <div class="todo-input">
@@ -39,9 +43,10 @@
                     <input id="input-todo" type="text" placeholder="Enter Your Task" >
                     <br>
                     <br>
-                   <center> <button  id="btn-add">ADD TASK</button>
+                   <center> <button  id="btn-add"><h3>ADD TASK</h3></button>
                     </center></form>    
                 </div>
+                <!-- List of all the task in todo -->
                 <div class="todo-result">
                     <h1>Task in TODO</h1>
                     
@@ -49,13 +54,16 @@
                         <ul id="todo-list">
                         </ul>
                     </div>
+                    <button onClick="cleardata() "><h3>Clear TODO</h3></button>
                 </div>
             </div>
         </section>
         <footer>
             
         </footer>
+       
+        <!-- Adding the Script of  todo -->
         <script src="./Assests/index.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        
     </body>
 </html>

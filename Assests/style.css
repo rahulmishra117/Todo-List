@@ -72,7 +72,7 @@ i{
     margin-left:14%;
 }
 .todo-input h1{
-    color: black;
+    color: rgb(241, 235, 235);
     font-family: sans-serif;
     font-size: 2.5rem;
 
@@ -113,9 +113,10 @@ li.item {
 li a.btn-edit {
     color: #042e47;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid rgb(11, 198, 255);
     margin-left:15px ;
     border-radius: 25px;
+    background-color: aqua;
 }
 
 li a.btn-delete {
@@ -144,6 +145,7 @@ li a.btn-delete {
     
 }
 .todo-result h1{
+    color: rgb(225, 225, 226);
     text-align: center;
     font-family: sans-serif;
      font-size: 2.5rem;
@@ -159,4 +161,19 @@ footer h1{
     color: rgb(255, 85, 6);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5rem;
+}
+
+.form-value button{
+    border-radius: 25px;
+}
+
+
+.todo-result button{
+    text-align: center;
+    border-radius: 25px;
+}
+button h3{
+    text-align: center;
+    font-family: sans-serif;
+
 }
