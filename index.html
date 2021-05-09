@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoFrontend</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Assests/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                TODO-LIST
+            </h1>
+        </header>
+        <main>
+            <div class="container">
+                <div class="left-part">
+                    <h1>TodoList</h1>
+                    <p> A list of things that one wants to get done or<br>
+                         that need to get done: No, I haven't bought the<br>
+                          gift yet, but it's on my to-do list.</p>
+                </div>
+                <div class="right-part">
+                    <img src="./Assests/image/0a092cdff199dbb9ada7507d17b5baf2.webp">
+                </div>
+            </div>
+        </main>
+        <section id="scroll-value">
+            <i class="fas fa-mouse-alt "></i>
+        </section>
+
+        <section id="todo-section">
+            <div class="container">
+                <div class="todo-input">
+                    <h1>Add/Edit TASK</h1>
+                    <br>
+                    <form class="form-value">
+                        
+                    <input id="input-todo" type="text" placeholder="Enter Your Task" >
+                    <br>
+                    <br>
+                   <center> <button  id="btn-add">ADD TASK</button>
+                    </center></form>    
+                </div>
+                <div class="todo-result">
+                    <h1>Task in TODO</h1>
+                    
+                    <div id="todo-data">
+                        <ul id="todo-list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./Assests/index.js"></script>
+    </body>
+</html>

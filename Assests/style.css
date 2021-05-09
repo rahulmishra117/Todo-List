@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(228, 218, 218);
+    /* background-color: rgb(255, 121, 121); */
+}
+header{
+    background:linear-gradient(45deg,orange,red);
+    width: auto;
+    height: 80px;
+    /* position: fixed; */
+    border-radius: 25px;
+}
+header  h1{
+ color: aliceblue;
+ text-align: center;
+ 
+}
+main{
+    padding-top:50px ;
+    height: 540px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    padding-top:25px ;
+}
+
+.left-part{
+    /* background-color: rgb(255, 44, 16); */
+    width: 40%;
+    height: 70%;
+    justify-content: center;
+    margin: auto;
+}
+.left-part h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+}
+.left-part h1 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right-part{
+    /* background-color:blue; */
+    width: 40%;
+    height: 70%;
+    justify-content: center;
+}
+img{
+    width: 350px;
+    height: 450px;
+    -ms-transform: rotate(15deg); /* IE 9 */
+    transform: rotate(15deg);
+    border-radius: 25px;
+}
+#scroll-value{
+    padding-top: 25px;
+    background-color: aqua;
+    margin: auto;
+}
+i{
+   text-align: center;
+    color: black;
+}
+
+#todo-section{
+    padding-top: 5%;
+    margin: auto;
+    background:linear-gradient(45deg,orange,red);
+    border-radius: 25px;
+}
+.todo-input{
+    margin-left:14%;
+}
+.todo-input h1{
+    color: black;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.todo-result{
+    margin-left: 10%;
+}
+#todo-data{
+    background-color: aliceblue;
+    height: 300px;
+    width: 450px;
+    margin: 4px 10px 6px 8px;
+    border-radius: 25px;
+}
+#todo-list{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+ul {
+    display: inline-block;
+    list-style: decimal-leading-zero;
+    margin: 15px 8px;
+    text-transform: uppercase;
+}
+
+li.item {
+    position: relative;
+    line-height: 1.5rem;
+    justify-content: space-between;
+}
+
+li a.btn-edit {
+    color: #4e89ae;
+    cursor: pointer;
+}
+
+li a.btn-delete {
+    color: #ea5455;
+    cursor: pointer;
+}
+
+.form-value{
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(18, 18, 37);
+    /* border: 1px solid black; */
+}
+
+#input-todo{
+    width: 250px;
+    height: 60px;
+    border-radius: 25px;
+}
+#btn-add{
+    width:100px;
+    height: 40px;
+    
+}
+.todo-result h1{
+    text-align: center;
+    font-family: sans-serif;
+     font-size: 2.5rem;
+}
+
+
+
